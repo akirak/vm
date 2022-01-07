@@ -34,7 +34,7 @@
   (require 'vm-page)
   (require 'vm-window)
   (require 'vm-undo)
-  )
+  (require 'vm-vars))
 
 (declare-function vm-sort-insert-auto-folder-names "vm-avirtual" ())
 
