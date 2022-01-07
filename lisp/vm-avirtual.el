@@ -106,6 +106,7 @@
 (provide 'vm-avirtual)
 
 (require 'vm-virtual)
+(require 'vm-version)
 
 (eval-when-compile
   (require 'vm-misc)

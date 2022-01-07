@@ -39,6 +39,7 @@
 ;;; Code:
 
 (provide 'vm-biff)
+(require 'vm-version)
 
 (eval-when-compile 
   (require 'vm-misc)

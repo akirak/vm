@@ -20,6 +20,8 @@
   (require 'vm-misc)
   (require 'vm-folder))
 
+(require 'vm-version)
+
 (defconst u-vm-color-version "2.10" "Version number of u-vm-color.")
 
 ;;  This program is free software; you can redistribute it and/or modify it
