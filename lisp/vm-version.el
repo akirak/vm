@@ -62,6 +62,7 @@
   (and (not vm-xemacs-mule-p) (featurep 'mule)
        (fboundp 'set-buffer-file-coding-system)))
 
+;;;###autoload
 (defun vm-xemacs-p () vm-xemacs-p)
 (defun vm-xemacs-mule-p () vm-xemacs-mule-p)
 (defun vm-xemacs-file-coding-p () vm-xemacs-file-coding-p)
