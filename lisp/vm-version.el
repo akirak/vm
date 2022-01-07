@@ -47,6 +47,7 @@
     (message "VM version is: %s" vm-version))
   vm-version)
 
+;;;###autoload
 (defconst vm-xemacs-p
   (featurep 'xemacs))
 (defconst vm-xemacs-mule-p
