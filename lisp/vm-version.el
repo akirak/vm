@@ -57,6 +57,7 @@
        ;; paranoia
        (fboundp
 	'set-buffer-file-coding-system)))
+;;;###autoload
 (defconst vm-fsfemacs-p
   (not vm-xemacs-p))
 (defconst vm-fsfemacs-mule-p
